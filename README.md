@@ -9,8 +9,3 @@ TEAM : 미세먼지를 Java
 미세먼지 정보를 안드로이드 어플로 보여주는 프로젝트 입니다.
 
 팀원 - 최기웅, 최규림, 강민상
-
-<안드로이드 제작영상 링크>
-#1
-https://www.youtube.com/watch?v=TpzeM6Gj2u0&list=PLjKSsFqRADtTj-iIFIdI7dexhochs7TOb&index=2
-
