@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_4"
+            android:icon="@drawable/check"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="실시간"
+            android:fontFamily="@font/higggothicssi_pro_60g"
+            />
+        <item
+            android:id="@+id/menu_5"
+            android:icon="@drawable/check"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="설정"
+            android:fontFamily="@font/higggothicssi_pro_60g"
+            />
+    </group>
+</menu>

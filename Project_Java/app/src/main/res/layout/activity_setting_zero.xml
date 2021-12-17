@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="설정"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:fontFamily="@font/higggothicssi_pro_60g" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="테스트용 URL 입력"
+        android:gravity="center"
+        android:layout_marginTop="60dp"/>
+
+    <EditText
+        android:id="@+id/input_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/higggothicssi_pro_60g"
+        android:gravity="center"
+        android:textSize="13dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="최근 측정된 미세먼지 수치값"
+            android:fontFamily="@font/higggothicssi_pro_60g"
+            android:textSize="20dp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/View_before"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="45.5555"
+            android:fontFamily="@font/higggothicssi_pro_80g"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="조절을 위한 편차를 입력해주세요"
+            android:fontFamily="@font/higggothicssi_pro_60g"
+            android:textSize="20dp"
+            android:gravity="center" />
+        <EditText
+            android:id="@+id/Edit_input"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/higggothicssi_pro_80g"
+            android:textSize="35dp"
+            android:hint="현재 : -30.0"
+            android:textColor="@color/colorBlue"
+            android:gravity="center"
+            android:inputType="numberSigned"/>
+        <Button
+            android:id="@+id/Button_set"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:text="적용"
+            android:fontFamily="@font/higggothicssi_pro_60g"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="조절된 값과 수치를 비교해보세요"
+            android:fontFamily="@font/higggothicssi_pro_60g"
+            android:textSize="20dp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/View_after"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:fontFamily="@font/higggothicssi_pro_80g"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button_save"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="저장하기"
+        android:fontFamily="@font/higggothicssi_pro_60g"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp" />
+
+
+</RelativeLayout>

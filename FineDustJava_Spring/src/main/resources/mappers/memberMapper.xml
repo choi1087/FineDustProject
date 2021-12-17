@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<mapper namespace="org.spring.mapper.memberMapper">
+ 
+ 	<select id="selectMember" parameterType="memberVO" resultType="memberVO">
+ 		<!-- select * from dust where spotName = #{spotName} AND isIndoor = #{isIndoor} -->
+ 		select * from (select * from dust where spotName = #{spotName} AND isIndoor = #{isIndoor} order by no desc limit 300) as a order by no asc
+ 	</select>
+ 	
+ 	<insert id="insertMember" parameterType="memberVO">
+ 		insert into dust(spotName, dustDegree, time, isIndoor) values (#{spotName},  #{dustDegree},#{time}, #{isIndoor})
+ 	</insert>
+ 	
+ 	<!-- 
+ 	<select id="selectSpotidx" parameterType="String" resultType="int">
+ 		select spot_idx from spot where spot_name = #{spot_name}
+ 	</select>
+ 	 -->
+</mapper>
+
+

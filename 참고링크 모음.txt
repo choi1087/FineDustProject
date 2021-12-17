@@ -1,0 +1,35 @@
+[아두이노 기초강좌]
+http://www.hardcopyworld.com/ngine/aduino/index.php/archives/932
+[아두이노 기초강좌]
+https://edu.goorm.io/learn/lecture/203/한-눈에-끝내는-아두이노-기초/lesson/6066/led-회로-구성하기
+[아두이노 센서]
+https://m.blog.naver.com/PostView.nhn?blogId=jyg0172&logNo=221266580545&proxyReferer=https:%2F%2Fwww.google.com%2F
+[무선통신방법]
+http://daddynkidsmakers.blogspot.com/2015/07/blog-post_21.html
+[미세먼지센서 사용예제, 예제코드] : GP2Y1010AU0F
+https://devicemart.blogspot.com/2019/12/gp2y1010au0f.html
+[미세먼지센서 사용예제, 예제코드] : PPD42NS
+https://blog.naver.com/darknisia/221293792853
+[블루투스 통신내용 모음]
+http://blog.naver.com/PostView.nhn?blogId=yuyyulee&logNo=220362601508&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView
+
+[블루투스 통신 테스트 모음]
+https://www.diymaker.net/88
+
+https://gothiczzang.tistory.com/13
+
+https://blog.naver.com/xisaturn/220712028679
+
+https://m.blog.naver.com/PostView.nhn?blogId=zeta0807&logNo=220775110594&proxyReferer=https:%2F%2Fwww.google.co.kr%2F
+
+[영점조정관련 링크모음]
+https://blog.naver.com/twophase/221139319142
+
+https://m.blog.naver.com/PostView.nhn?blogId=ann_arbor&logNo=221350134225&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+https://blog.naver.com/ann_arbor/221350138385
+
+[새로운 미세먼지 센서 링크]
+http://blog.naver.com/PostView.nhn?blogId=intopion&logNo=221486556352&parentCategoryNo=72&categoryNo=&viewDate=&isShowPopularPosts=true&from=search
+
+

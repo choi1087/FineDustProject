@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="위치선택"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/higggothicssi_pro_99g"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="50dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            >
+
+            <ImageView
+                android:id="@+id/Button_in_check"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+
+                 />
+            <Button
+                android:id="@+id/Button_in"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="실내"
+                android:textSize="33dp"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/higggothicssi_pro_80g"
+                android:gravity="left|center_vertical"
+                android:background="@null"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/Button_out_check"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+
+                 />
+            <Button
+                android:id="@+id/Button_out"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="실외"
+                android:textSize="33dp"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/higggothicssi_pro_80g"
+                android:gravity="left|center_vertical"
+                android:background="@null"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Button_enter"
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="입력"
+            android:textSize="30dp"
+            android:fontFamily="@font/higggothicssi_pro_80g"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@color/colorBlueButton"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
